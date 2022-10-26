@@ -1,12 +1,12 @@
-import Header from "./components/Header";
+import Header from "./components/pages/HeaderPage/Header";
 import {
     BrowserRouter,
     Routes,
     Route
 } from "react-router-dom";
-import Organizations from "./components/Organizations";
-import Users from "./components/Users";
-import Overview from "./components/Overview";
+import Organizations from "./components/pages/OrganizationsPage/Organizations";
+import Users from "./components/pages/UsersPage/Users";
+import Overview from "./components/pages/OverviewPage/Overview";
 
 function App() {
     return <div>
